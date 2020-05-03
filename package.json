@@ -1,0 +1,28 @@
+{
+  "name": "landing-pages",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch stylesheets/style.scss ./build/stylesheets/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oduginov/landing-pages.git"
+  },
+  "keywords": [
+    "markup",
+    "scss",
+    "webpack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oduginov/landing-pages/issues"
+  },
+  "homepage": "https://github.com/oduginov/landing-pages#readme",
+  "dependencies": {
+    "sass": "^1.26.5"
+  }
+}
