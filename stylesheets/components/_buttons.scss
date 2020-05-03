@@ -1,0 +1,33 @@
+.button {
+  font-family: "Open Sans", sans-serif;
+  padding: 11px 25px 13px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.header__buttons > button:nth-child(2) {
+  margin-left: 14px;
+}
+
+.button_bordered {
+  background-color: $color-light;
+  border: 1px solid $color-border;
+  color: $color-text
+}
+
+.button_colored {
+  background-color: $color-primary;
+  color: $color-light;
+  border: 1px solid $color-primary;
+  border: none;
+}
+
+.button_bordered:hover {
+  background-color: $color-hovered;
+  border-color: $color-hovered;
+}

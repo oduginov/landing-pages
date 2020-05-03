@@ -1,0 +1,17 @@
+.promo__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.promo {
+  padding: 10px 0;
+}
+
+.promo__content {
+  padding-right: 65px;
+}
+
+.promo__buttons > a{
+  margin-left: 44px;
+}
