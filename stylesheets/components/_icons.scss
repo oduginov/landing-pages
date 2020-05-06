@@ -1,0 +1,60 @@
+.ico {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.ico_play {
+  width: 18px;
+  height: 19px;
+  margin-right: 10px;
+  background-image: url("../../assets/icons/play.svg");
+}
+
+.icon-square {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 19px;
+
+  &_yellow {
+    background-color: $color-yellow;
+  }
+
+  &_blue {
+    background-color: $color-blue;
+  }
+
+  &_red {
+    background-color: $color-red;
+  }
+
+  &_violet {
+    background-color: $color-violet;
+  }
+}
+
+.ico-arrow {
+  width: 12px;
+  height: 17px;
+  background-image: url("../../assets/icons/arrow.svg");
+}
+
+.ico-wave {
+  width: 18px;
+  height: 14px;
+  background-image: url("../../assets/icons/wave.svg");
+}
+
+.ico-heart {
+  width: 17px;
+  height: 15px;
+  background-image: url("../../assets/icons/heart.svg");
+}
+
+.ico-clock {
+  width: 15px;
+  height: 17px;
+  background-image: url("../../assets/icons/clock.svg");
+}

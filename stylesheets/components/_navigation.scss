@@ -8,4 +8,13 @@
   list-style: none;
   padding: 0 10px;
   cursor: pointer;
+  @extend %transition;
+
+  &:hover{
+    color: $color-primary;
+    display: inline-flex;
+    align-items: center;
+  }
 }
+
+
