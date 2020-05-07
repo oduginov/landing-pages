@@ -1,0 +1,46 @@
+.about-us__description {
+  margin: 0 0 45px;
+}
+
+.employees {
+  display: flex;
+  padding: 35px;
+  position: relative;
+  width: calc(30% - 49px);
+}
+
+.employee-photo {
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  top: 20px;
+  left: calc(100% - 49px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.employee__title {
+  margin: 0;
+  padding: 0;
+}
+
+.employee-name {
+
+}
+
+.employee__title {
+  @include font(1.4rem, $weight: normal);
+}
+
+.employee-contact {
+  @include font(1.4rem, $weight: normal);
+  color: $color-link;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.about-us__container {
+  padding-right: 49px;
+}

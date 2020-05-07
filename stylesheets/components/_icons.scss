@@ -58,3 +58,27 @@
   height: 17px;
   background-image: url("../../assets/icons/clock.svg");
 }
+
+.icon-round {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  &_white {
+    background-color: $color-light;
+  }
+}
+
+.ico-phone {
+  vertical-align: center;
+  background-image: url("../../assets/icons/ico_phone.svg");
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.ico-letter {
+  background-image: url("../../assets/icons/ico_mail.svg");
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}

@@ -29,5 +29,7 @@ h4 {
 }
 
 h5 {
+  margin: 0;
+  padding: 0;
   @include font(1.6rem, 2.6rem);
 }
