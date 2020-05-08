@@ -12,6 +12,10 @@
 .tools-button {
   margin-top: 60px;
   text-align: center;
+
+  @include media-mobile {
+    margin-top: 0;
+  }
 }
 
 .tools__wrapper {
@@ -20,4 +24,21 @@
   background-size: 100%;
   background-repeat: no-repeat;
   padding-bottom: 100px;
+}
+
+.tool-container {
+  @include media-tablet {
+    flex-wrap: wrap;
+    .tool {
+      flex-basis: 43%;
+      text-align: center;
+    }
+  }
+
+  @include media-mobile {
+    .tool {
+      flex-basis: 100%;
+      margin-bottom: 47px;
+    }
+  }
 }

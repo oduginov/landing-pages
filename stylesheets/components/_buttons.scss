@@ -36,6 +36,12 @@
   margin-left: 14px;
 }
 
+.header__buttons {
+  @include media-tablet {
+    display: none;
+  }
+}
+
 .link-button {
   display: inline-flex;
   align-items: center;
