@@ -461,6 +461,16 @@ template {
   font-family: "Open Sans", Verdana, sans-serif;
 }
 
+.hamburger__line, .hamburger:after, .hamburger:before {
+  display: inline-block;
+  position: absolute;
+  content: "";
+  background-color: #173A56;
+  border-radius: 5px;
+  height: 3px;
+  width: 100%;
+}
+
 html {
   font-size: 10px;
 }
@@ -516,6 +526,11 @@ h5 {
 .wrapper {
   max-width: 1197px;
   margin: 0 auto;
+}
+@media (max-width: 1197px) {
+  .wrapper {
+    padding: 0 46px;
+  }
 }
 
 .header {
@@ -637,6 +652,12 @@ h5 {
   color: #FF9900;
   display: inline-flex;
   align-items: center;
+}
+
+@media (max-width: 768px) {
+  .header__navigation {
+    display: none;
+  }
 }
 
 .button {
@@ -914,6 +935,31 @@ h5 {
 
 .about-us__container {
   padding-right: 49px;
+}
+
+.hamburger {
+  display: none;
+  position: relative;
+  width: 31px;
+  height: 25px;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: inline-block;
+  }
+}
+.hamburger:before {
+  top: 0;
+  left: 0;
+}
+.hamburger:after {
+  bottom: 0;
+  left: 0;
+}
+
+.hamburger__line {
+  top: calc(50% - 1.5px);
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

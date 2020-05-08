@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/oduginov/landing-pages#readme",
   "dependencies": {
+    "normalize-scss": "^7.0.1",
     "sass": "^1.26.5"
   }
 }

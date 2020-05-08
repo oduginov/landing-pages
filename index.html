@@ -11,6 +11,9 @@
 <body>
 <header class="header">
 	<div class="wrapper header__wrapper">
+		<span class="hamburger">
+			<span class="hamburger__line"></span>
+		</span>
 		<a href="#" class="logo">
 			<object type="image/svg+xml" data="./assets/logo.svg" class="logo-object">
 				Your browser does not support SVG
@@ -161,37 +164,37 @@
 <section class="about-us">
 	<div class="wrapper">
 		<h2>About Us</h2>
-		<p>
+		<p class="about-us__description">
 			Your About Us page is vital. It’s often the first stop in any user’s journey
 			through a website or blog. It also shouldn’t be their last, because first impressions
 			count online just as much as they do in the real world. If your visitors aren’t impressed,
 			you can expect them to leave without reading your awesome content or completing a conversion
 			action (e.g., signing up for your newsletter, making a purchase).
 		</p>
-		<div class="layout-3-columns">
+		<div class="layout-3-columns about-us__container">
 			<div class="employees block-shadowed">
 				<div class="employee-content">
-					<h5>Kathy Rosenberg</h5>
+					<h5 class="employee-name">Kathy Rosenberg</h5>
 					<p class="employee__title">Product Manager</p>
-					<a href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
+					<a class="employee-contact" href="mailto:kathyr@gmail.com">kathyr@gmail.com</a>
 				</div>
-				<img src="./assets/strategies/pic6.jpg" alt="Kathy Rosenberg">
+				<img src="./assets/employees/kathy.png" alt="Kathy Rosenberg" class="employee-photo">
 			</div>
 			<div class="employees block-shadowed">
 				<div class="employee-content">
-					<h5>Alexandra Boyarskaya</h5>
+					<h5 class="employee-name">Alexandra Boyarskaya</h5>
 					<p class="employee__title">Support Marketing Specialist</p>
-					<a href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
+					<a class="employee-contact" href="mailto:alexandrab@gmail.com">alexandrab@gmail.com</a>
 				</div>
-				<img src="./assets/strategies/pic7.jpg" alt="Alexandra Boyarskaya">
+				<img src="./assets/employees/alexandra.png" alt="Alexandra Boyarskaya" class="employee-photo">
 			</div>
 			<div class="employees block-shadowed">
 				<div class="employee-content">
-					<h5>Melani Amini</h5>
+					<h5 class="employee-name">Melani Amini</h5>
 					<p class="employee__title">Photographer</p>
-					<a href="mailto:melania@gmail.com">melania@gmail.com</a>
+					<a class="employee-contact" href="mailto:melania@gmail.com">melania@gmail.com</a>
 				</div>
-				<img src="./assets/strategies/pic8.jpg" alt="Melani Amini">
+				<img src="./assets/employees/melani.png" alt="Melani Amini" class="employee-photo">
 			</div>
 		</div>
 	</div>
@@ -201,15 +204,16 @@
 		<h2>Contact Us</h2>
 		<div class="layout-2-columns">
 			<div class="contact-us__content">
-				<p>Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It
+				<p class="contact-us__text">Your About Us page is vital. It’s often the first stop in any user’s journey through a website or blog. It
 					also shouldn’t be their last, because first impressions count online just as much as they do in the real
 					world. If your visitors aren’t impressed, you can expect them to leave without reading your awesome content or
 					completing a conversion action (e.g., signing up for your newsletter, making a purchase).</p>
 				<p>
-					<span class="ico ico-phone"></span> <a href="tel:+375 (22) 345-00-99">+375 (22) 345-00-99</a>
+					<span class="icon-round"><span class="ico ico-phone"></span>
+					<a href="tel:+375 (22) 345-00-99" class="contact-data">+375 (22) 345-00-99</a></span>
 				</p>
 				<p>
-					<span class="ico ico-letter"></span> <a href="mailto:emailname@gmail.com">emailname@gmail.com</a>
+					<span class="icon-round"><span class="ico ico-letter"></span> <a href="mailto:emailname@gmail.com" class="contact-data">emailname@gmail.com</a></span>
 				</p>
 			</div>
 			<div class="contact-us__form">
@@ -228,7 +232,7 @@
 	</div>
 </section>
 <footer class="footer">
-	<div class="wrapper">
+	<div class="wrapper footer__wrapper">
 		<a href="#" class="logo">
 			<object type="image/svg+xml" data="./assets/logo.svg" class="logo-object">
 				Your browser does not support SVG
