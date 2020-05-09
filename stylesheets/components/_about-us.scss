@@ -7,6 +7,13 @@
   padding: 35px;
   position: relative;
   width: calc(30% - 49px);
+  @include media-tablet {
+    flex-basis: 45%;
+  }
+  @include media-mobile {
+    flex-basis: 100%;
+  }
+
 }
 
 .employee-photo {

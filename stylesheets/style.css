@@ -1131,6 +1131,16 @@ h5 {
   position: relative;
   width: calc(30% - 49px);
 }
+@media (max-width: 768px) {
+  .employees {
+    flex-basis: 45%;
+  }
+}
+@media (max-width: 414px) {
+  .employees {
+    flex-basis: 100%;
+  }
+}
 
 .employee-photo {
   border-radius: 50%;
